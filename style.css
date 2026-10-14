@@ -1,6 +1,10 @@
 body {
-  background-color: black;
-}
+    background-image: url('./Xmas.png');
+      background-size: cover;       /* Makes the image stretch to cover the whole screen */
+        background-position: center;  /* Centers the image */
+          background-repeat: no-repeat; /* Prevents the image from repeating like tiles */
+            background-attachment: fixed; /* Keeps the background in place when you scroll */
+            }
 .merry-xmas {
   display: flex;
   justify-content: center;
