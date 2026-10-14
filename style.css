@@ -54,7 +54,9 @@ button:hover::before {
 #long-message {
   font-family: 'Love Light', cursive;
   font-size: 36px; 
-  color: #f34f41;
+  background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   max-width: 500px;
   text-align: center;
   line-height: 1.5;
