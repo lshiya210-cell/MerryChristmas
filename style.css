@@ -54,7 +54,7 @@ button:hover::before {
 #long-message {
   font-family: 'Love Light', cursive;
   font-size: 36px; 
-  color: white;
+  color: #f34f41;
   max-width: 500px;
   text-align: center;
   line-height: 1.5;
